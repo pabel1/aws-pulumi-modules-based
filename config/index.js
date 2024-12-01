@@ -13,12 +13,8 @@ module.exports = {
   vpc: {
     cidrBlock: "10.0.0.0/16",
     availabilityZones: ["ap-southeast-1a"],
-    publicSubnets: [
-      "10.0.1.0/24", // AZ 1
-    ],
-    privateSubnets: [
-      "10.0.10.0/24", // AZ 1
-    ],
+    publicSubnets: ["10.0.1.0/24"],
+    privateSubnets: ["10.0.10.0/24"],
   },
 
   bastion: {
